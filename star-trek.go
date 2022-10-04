@@ -124,7 +124,7 @@ func main() {
 				case 2:
 					ShieldsUp = true
 				case 3:
-					fmt.Println("All decks blow up, the Bridge Blows The crew is dead!")
+					fmt.Println("All decks blow up, the Bridge Blows up The crew is dead!")
 					return
 				case 4:
 
