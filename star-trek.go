@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"strings"
 )
 
 func main() {
@@ -24,7 +23,6 @@ func main() {
 	var ShieldsUp bool
 	var IsInEnemyTeritorry bool
 	var inputSpaceName string
-	inputfaction = strings.ToLower(inputfaction)
 	var WorldMap = []string{"S", "S", "S", "S", "S", "S", "K", "K", "K", "K", "R", "R", "R", "R", "R", "R"}
 	var TypeWorldMap = WorldMap
 	var CurrentPosition int
