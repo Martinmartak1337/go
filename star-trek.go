@@ -9,7 +9,7 @@ import (
 func main() {
 	var factions = []string{"S", "K", "R"} // forget this
 	fmt.Println("HELLO WHICH FACTION DO YOU CHOOSE: \n")
-	for i := len(factions) - 1; i > 0; i-- {
+	for i := len(factions) - 1; i >= 0; i-- {
 		fmt.Println(factions[i])
 	}
 	var inputfaction string
