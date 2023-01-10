@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	const msg = "Weed?"
+	const msg = "Uranium"
 	var in int
 	fmt.Println("Enter a positive integer: ")
 	_, err := fmt.Scanln(&in)
